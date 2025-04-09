@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EspacoMatao.Application\EspacoMatao.Application.csproj" />
+    <ProjectReference Include="..\EspacoMatao.Domain\EspacoMatao.Domain.csproj" />
+    <ProjectReference Include="..\EspacoMatao.Infra\EspacoMatao.Infra.csproj" />
+  </ItemGroup>
+
+</Project>

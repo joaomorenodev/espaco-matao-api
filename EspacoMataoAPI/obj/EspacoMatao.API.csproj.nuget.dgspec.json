@@ -1,0 +1,127 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\EspacoMatao\\EspacoMatao\\EspacoMataoAPI\\EspacoMatao.API.csproj": {}
+  },
+  "projects": {
+    "C:\\EspacoMatao\\EspacoMatao\\EspacoMatao.Application\\EspacoMatao.Application.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\EspacoMatao\\EspacoMatao\\EspacoMatao.Application\\EspacoMatao.Application.csproj",
+        "projectName": "EspacoMatao.Application",
+        "projectPath": "C:\\EspacoMatao\\EspacoMatao\\EspacoMatao.Application\\EspacoMatao.Application.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\EspacoMatao\\EspacoMatao\\EspacoMatao.Domain\\EspacoMatao.Domain.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\EspacoMatao\\EspacoMatao\\EspacoMatao.Domain\\EspacoMatao.Domain.csproj",
+        "projectName": "EspacoMatao.Domain",
+        "projectPath": "C:\\EspacoMatao\\EspacoMatao\\EspacoMatao.Domain\\EspacoMatao.Domain.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\EspacoMatao\\EspacoMatao\\EspacoMatao.Infra\\EspacoMatao.Infra.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\EspacoMatao\\EspacoMatao\\EspacoMatao.Infra\\EspacoMatao.Infra.csproj",
+        "projectName": "EspacoMatao.Infra",
+        "projectPath": "C:\\EspacoMatao\\EspacoMatao\\EspacoMatao.Infra\\EspacoMatao.Infra.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\EspacoMatao\\EspacoMatao\\EspacoMataoAPI\\EspacoMatao.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\EspacoMatao\\EspacoMatao\\EspacoMataoAPI\\EspacoMatao.API.csproj",
+        "projectName": "EspacoMatao.API",
+        "projectPath": "C:\\EspacoMatao\\EspacoMatao\\EspacoMataoAPI\\EspacoMatao.API.csproj",
+        "packagesPath": "C:\\Users\\João\\.nuget\\packages\\",
+        "outputPath": "C:\\EspacoMatao\\EspacoMatao\\EspacoMataoAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\João\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\EspacoMatao\\EspacoMatao\\EspacoMatao.Application\\EspacoMatao.Application.csproj": {
+                "projectPath": "C:\\EspacoMatao\\EspacoMatao\\EspacoMatao.Application\\EspacoMatao.Application.csproj"
+              },
+              "C:\\EspacoMatao\\EspacoMatao\\EspacoMatao.Domain\\EspacoMatao.Domain.csproj": {
+                "projectPath": "C:\\EspacoMatao\\EspacoMatao\\EspacoMatao.Domain\\EspacoMatao.Domain.csproj"
+              },
+              "C:\\EspacoMatao\\EspacoMatao\\EspacoMatao.Infra\\EspacoMatao.Infra.csproj": {
+                "projectPath": "C:\\EspacoMatao\\EspacoMatao\\EspacoMatao.Infra\\EspacoMatao.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

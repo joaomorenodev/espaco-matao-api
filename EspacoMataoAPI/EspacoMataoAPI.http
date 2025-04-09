@@ -1,0 +1,6 @@
+@EspacoMataoAPI_HostAddress = http://localhost:5206
+
+GET {{EspacoMataoAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
